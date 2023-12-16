@@ -1,15 +1,17 @@
-module github.com/axot/lambda-container-blog
+module github.com/axot/lambda-container-deploy
 
 go 1.21.1
 
-require github.com/aws/aws-xray-sdk-go v1.8.3
+require (
+	github.com/aws/aws-xray-sdk-go v1.8.3
+	github.com/jpillora/ipfilter v1.2.9
+)
 
 require (
 	github.com/andybalholm/brotli v1.0.6 // indirect
 	github.com/aws/aws-sdk-go v1.47.9 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	github.com/jpillora/ipfilter v1.2.9 // indirect
 	github.com/klauspost/compress v1.17.2 // indirect
 	github.com/phuslu/iploc v1.0.20230201 // indirect
 	github.com/pkg/errors v0.9.1 // indirect

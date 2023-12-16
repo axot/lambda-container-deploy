@@ -10,7 +10,7 @@ import (
 	"github.com/aws/aws-xray-sdk-go/xray"
 	"github.com/jpillora/ipfilter"
 
-	"github.com/axot/lambda-container-blog/xraylogger"
+	"github.com/axot/lambda-container-deploy/xraylogger"
 )
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
