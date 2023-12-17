@@ -247,7 +247,7 @@ function deploy_lambda() {
 
   # Retrieve and print the Function URL
   FUNCTION_URL=$(aws lambda get-function-url-config --function-name ${SERVICE_NAME} --query 'FunctionUrl' --output text)
-  echo "Public Lambda Function URL: ${FUNCTION_URL}, you can change auth-type to AWS_IAM"
+  echo "Public Lambda Function URL: ${FUNCTION_URL}"
 }
 
 function destroy_lambda() {
